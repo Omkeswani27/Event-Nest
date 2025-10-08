@@ -1,0 +1,23 @@
+
+
+.chatbot{
+    text-align: center;
+}
+.chatbot-img{
+    height: 30%;
+    width: 40%;
+    text-align: center;
+    margin-left: 110px;
+}
+.chat-btn{
+    background: gold;
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+.input-search{
+    width: 100%;
+    border: 2px solid black;
+    border-radius: 5px;
+
+}

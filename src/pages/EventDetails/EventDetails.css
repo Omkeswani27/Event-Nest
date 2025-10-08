@@ -1,0 +1,117 @@
+/* .event-details-container {
+    width: 100%;
+    height: 100vh;
+  }
+  
+  .event-details-wrapper {
+    padding: 40px 80px 80px 80px;
+  }
+  
+  .event-details-wrapper img {
+    width: 100%;
+    height: 50vh;
+    background-size: 100% 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    object-fit: cover;
+    display: block;
+    margin-top: 60px;
+  }
+  
+  .event-details-content {
+    margin-top: 40px;
+  }
+  .event-details-content h3 {
+    font-size: 24px;
+    text-transform: uppercase;
+    color: rgb(61, 61, 61);
+    font-weight: 600;
+    margin-bottom: 20px;
+  }
+  .font-weight-med {
+    font-size: 18px;
+  }
+  .small-details {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+  }
+  .small-details .date {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 8px;
+  }
+  .small-details .location {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 8px;
+  }
+  .icon {
+    width: 36px;
+    height: 36px;
+  }
+  .event-details-content .description {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 8px;
+    font-size: 16px;
+    margin-top: 20px;
+  }
+  .description-heading {
+    font-size: 20px !important;
+    color: var(--primary-color);
+    font-weight: 500;
+    margin-top: 20px;
+  }
+  .description-heading-para {
+    font-size: 16px !important;
+  } */
+
+
+  .event-details-container {
+    padding: 20px;
+    max-width: 800px;
+    margin: auto;
+    text-align: center;
+    margin-left: 240px;
+}
+
+.event-details-container img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+    margin-bottom: 20px;
+}
+
+.event-details-content {
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 20px;
+}
+
+.event-details-content h3 {
+    font-size: 28px;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.event-details-content p {
+    font-size: 16px;
+    color: #666;
+    margin: 5px 0;
+}
+
+.small-details {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 15px;
+}
+
+.small-details .date, 
+.small-details .location {
+    font-weight: 500;
+}

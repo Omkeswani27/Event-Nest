@@ -1,0 +1,82 @@
+/* 
+nav {
+    width: 100%;
+    height: 80px;
+    background: linear-gradient(to bottom, #ffffff, #d7ffda);
+    position: fixed;
+  }
+  ul {
+    height: 100%;
+  
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 36px;
+    list-style-type: none;
+    padding: 0 80px 0 80px;
+    border-bottom: 0.4px solid rgb(0, 0, 0);
+  }
+  ul li a {
+    text-decoration: none;
+  }
+  nav ul li a {
+    font-size: 16px !important;
+    font-weight: 600;
+  }
+  nav ul li a:hover {
+    color: var(--primary-color);
+  }
+   */
+
+
+   body {
+    margin: 0;
+    padding: 0;
+}
+
+nav {
+    width: 100%;
+    height: 80px;
+    /* background: linear-gradient(to bottom, #ffffff, #d7ffda); */
+    background-color: #0056b3;
+    position: fixed;
+    top: 0; /* Ensures it stays at the top */
+    left: 0; /* Ensures it stretches across */
+    z-index: 1000; /* Keeps it on top of other content */
+}
+
+ul {
+    height: 100%;
+    display: flex;
+    justify-content: flex-end; /* Aligns items to the right */
+    align-items: center; /* Centers items vertically */
+    gap: 36px;
+    list-style-type: none;
+    padding: 0 80px; /* Add padding left and right */
+    /* border-bottom: 0.4px solid rgb(0, 0, 0); */
+}
+
+ul li a {
+    text-decoration: none;
+    font-size: 16px !important;
+    font-weight: 600;
+}
+
+nav ul li a:hover {
+    color: var(--primary-color);
+}
+  button {
+    background-color: #007bff; /* Change to your preferred color */
+    color: white; /* Change text color for contrast */
+    border: none;
+    padding: 10px 20px;
+    /* border-radius: 5px; */
+    cursor: pointer;
+    font-size: 16px;
+    margin: 5px; /* Add some space between buttons */
+    transition: background-color 0.3s; /* Smooth transition */
+  }
+  
+  button:hover {
+    background-color: #0056b3; /* Darker shade for hover effect */
+  }
